@@ -1,0 +1,6 @@
+interfaces.souscriptions.Souscriptions$3
+interfaces.souscriptions.Souscriptions$2
+interfaces.souscriptions.Souscriptions$1
+interfaces.souscriptions.Souscriptions$5
+interfaces.souscriptions.Souscriptions$4
+interfaces.souscriptions.Souscriptions
