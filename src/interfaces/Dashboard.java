@@ -19,14 +19,14 @@ import java.sql.SQLException;
 public class Dashboard extends JFrame {
     private final AbonneDAO abonneDAO;
     private final AbonnementDAO abonnementDAO;
-    private final DecimalFormat df = new DecimalFormat("#,##0.00 €");
+    private final DecimalFormat df = new DecimalFormat("#,##0.00 CFA"); // Format for displaying amounts in CFA
 
-    private static final Color PRIMARY_BLUE = new Color(25, 118, 210);
-    private static final Color LIGHT_BLUE = new Color(66, 139, 202);
-    private static final Color BACKGROUND_COLOR = new Color(245, 247, 250);
-    private static final Color CARD_COLOR = Color.WHITE;
-    private static final Color TEXT_COLOR = new Color(33, 37, 41);
-    private static final Color BORDER_COLOR = new Color(222, 226, 230);
+    private static final Color PRIMARY_BLUE = new Color(34, 139, 34);
+    private static final Color LIGHT_BLUE = new Color(144, 238, 144);
+    private static final Color BACKGROUND_COLOR = new Color(245, 245, 245);
+    private static final Color CARD_COLOR = new Color(255, 255, 255);
+    private static final Color TEXT_COLOR = new Color(0, 0, 0);
+    private static final Color BORDER_COLOR = new Color(169, 169, 169);
 
     public Dashboard() {
         try {
@@ -207,7 +207,7 @@ public class Dashboard extends JFrame {
                 super.paintComponent(g);
             }
         };
-        button.setFont(new Font("Segoe UI", Font.BOLD, 14));
+        button.setFont(new Font("Segoe UI", Font.BOLD, 19));
         button.setForeground(Color.WHITE);
         button.setContentAreaFilled(false);
         button.setBorderPainted(false);

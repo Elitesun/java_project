@@ -334,7 +334,7 @@ public class Abonnements extends JFrame {
 
     private void retourDashboard() {
         dispose();
-        new Dashboard().setVisible(true);
+        
     }
 
     private void afficherErreur(String message, Exception e) {

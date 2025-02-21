@@ -11,7 +11,7 @@ public class Statistiques extends JFrame {
     // Objets d'accès aux données
     private AbonneDAO abonneDAO;
     private AbonnementDAO abonnementDAO;
-    private DecimalFormat df = new DecimalFormat("#,##0.00 €"); // Format pour afficher les montants
+    private DecimalFormat df = new DecimalFormat("#,##0.00 CFA"); // Format pour afficher les montants en CFA
 
     // Réutilisation de la palette de couleurs du Dashboard pour la cohérence visuelle
     private static final Color PRIMARY_BLUE = new Color(25, 118, 210);    // Couleur principale
@@ -102,8 +102,7 @@ public class Statistiques extends JFrame {
         returnButton.setFocusPainted(false);
         returnButton.addActionListener(e -> {
             dispose();
-            // Assuming Dashboard is another JFrame class
-            new Dashboard().setVisible(true);
+        
         });
         
         JPanel bottomPanel = new JPanel(new FlowLayout(FlowLayout.RIGHT));

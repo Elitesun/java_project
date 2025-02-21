@@ -3,10 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/ELITESUN/Desktop/Projet/src/souscriptions/AjouterSouscription.java</file>
-            <file>file:/C:/Users/ELITESUN/Desktop/Projet/src/dao/SouscriptionDAO.java</file>
-            <file>file:/C:/Users/ELITESUN/Desktop/Projet/src/souscriptions/Souscriptions.java</file>
-            <file>file:/C:/Users/ELITESUN/Desktop/Projet/src/souscriptions/ModifierSouscription.java</file>
+            <file>file:/C:/Users/ELITESUN/Desktop/Projet/src/dao/Connexion.java</file>
+            <file>file:/C:/Users/ELITESUN/Desktop/Projet/src/abonnements/Abonnements.java</file>
+            <file>file:/C:/Users/ELITESUN/Desktop/Projet/src/dao/AbonneDAO.java</file>
+            <file>file:/C:/Users/ELITESUN/Desktop/Projet/src/dao/DatabaseConnection.java</file>
+            <file>file:/C:/Users/ELITESUN/Desktop/Projet/src/Model/Abonne.java</file>
         </group>
     </open-files>
 </project-private>

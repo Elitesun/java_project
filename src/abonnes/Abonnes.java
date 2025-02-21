@@ -58,11 +58,11 @@ public class Abonnes extends JFrame {
         buttonPanel.setLayout(new FlowLayout(FlowLayout.CENTER));
         buttonPanel.setBackground(new Color(255, 255, 255)); // White background
 
-        addButton = createStyledButton("Ajouter Abonné", new Color(0, 123, 255));
-        editButton = createStyledButton("Modifier Abonné", new Color(0, 123, 255));
-        deleteButton = createStyledButton("Supprimer Abonné", new Color(0, 123, 255));
-        backButton = createStyledButton("Retour", new Color(0, 123, 255));
-        refreshButton = createStyledButton("Actualiser", new Color(0, 123, 255));
+        addButton = createStyledButton("Ajouter Abonné", new Color(0, 123, 0)); // Green
+        editButton = createStyledButton("Modifier Abonné", new Color(0, 123, 0)); // Green
+        deleteButton = createStyledButton("Supprimer Abonné", new Color(123, 0, 0)); // Red
+        backButton = createStyledButton("Retour", new Color(0, 123, 0)); // Green
+        refreshButton = createStyledButton("Actualiser", new Color(0, 123, 0)); // Green
 
         buttonPanel.add(addButton);
         buttonPanel.add(editButton);
@@ -83,7 +83,7 @@ public class Abonnes extends JFrame {
         searchButton.addActionListener(e -> searchAbonne());
         backButton.addActionListener(e -> {
             dispose(); // Close the current window
-            new Dashboard().setVisible(true); // Open the dashboard
+             // Open the dashboard
         });
     }
 
@@ -97,7 +97,7 @@ public class Abonnes extends JFrame {
 
     private JButton createStyledButton(String text, Color color) {
         JButton button = new JButton(text);
-        button.setFont(new Font("Segoe UI", Font.PLAIN, 16));
+        button.setFont(new Font("Segoe UI", Font.PLAIN, 17));
         button.setBackground(color); // Blue
         button.setForeground(Color.BLACK); // Set text color to black
         button.setFocusPainted(false);

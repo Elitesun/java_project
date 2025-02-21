@@ -77,7 +77,7 @@ public class Connexion extends JFrame {
         loginButton = new JButton("Se connecter");
         loginButton.setMaximumSize(new Dimension(300, 45));
         loginButton.setAlignmentX(Component.CENTER_ALIGNMENT);
-        loginButton.setBackground(new Color(25, 118, 210));
+        loginButton.setBackground(new Color(25, 210, 25));
         loginButton.setForeground(Color.WHITE);
         loginButton.setFont(new Font("Arial", Font.BOLD, 16));
         loginButton.setFocusPainted(false);

@@ -216,7 +216,7 @@ public class Souscriptions extends JFrame {
             // Logic to return to the dashboard
             dispose();
             // Assuming Dashboard is another JFrame class
-            new Dashboard().setVisible(true);
+           
         });
 
         refreshButton.addActionListener(e -> {
